@@ -142,6 +142,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="TrackingPage.aspx" />
+    <Content Include="DetailPage.aspx" />
+    <Content Include="SiteSecurity.aspx" />
+    <Content Include="WebApp.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -223,6 +227,34 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TrackingPage.aspx.cs">
+      <DependentUpon>TrackingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrackingPage.aspx.designer.cs">
+      <DependentUpon>TrackingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailPage.aspx.cs">
+      <DependentUpon>DetailPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailPage.aspx.designer.cs">
+      <DependentUpon>DetailPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSecurity.aspx.cs">
+      <DependentUpon>SiteSecurity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteSecurity.aspx.designer.cs">
+      <DependentUpon>SiteSecurity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebApp.aspx.cs">
+      <DependentUpon>WebApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApp.aspx.designer.cs">
+      <DependentUpon>WebApp.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
