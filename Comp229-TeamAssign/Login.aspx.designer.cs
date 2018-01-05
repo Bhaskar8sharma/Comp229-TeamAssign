@@ -10,16 +10,25 @@
 namespace Comp229_TeamAssign {
     
     
-    public partial class WebForm2 {
+    public partial class Login {
         
         /// <summary>
-        /// Rptitems control.
+        /// txtname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Rptitems;
+        protected global::System.Web.UI.WebControls.TextBox txtname;
+        
+        /// <summary>
+        /// reqtxtname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqtxtname;
         
         /// <summary>
         /// txtusername control.
@@ -40,6 +49,24 @@ namespace Comp229_TeamAssign {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqtxtusername;
         
         /// <summary>
+        /// txtemail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtemail;
+        
+        /// <summary>
+        /// reqtxtemail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqtxtemail;
+        
+        /// <summary>
         /// txtpassword control.
         /// </summary>
         /// <remarks>
@@ -58,21 +85,12 @@ namespace Comp229_TeamAssign {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqtxtpassword;
         
         /// <summary>
-        /// lblerror control.
+        /// BtnRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblerror;
-        
-        /// <summary>
-        /// BtnLogin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnLogin;
+        protected global::System.Web.UI.WebControls.Button BtnRegister;
     }
 }
