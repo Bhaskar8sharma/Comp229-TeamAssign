@@ -40,7 +40,7 @@
                                 </div>
                             <div class="row">
                                 <div class="col-md-4 col-sm-12">
-                                    Auther*<br />
+                                    Author*<br />
                                     <asp:TextBox ID="txtbookwriter" runat="server"></asp:TextBox><br />
                                     <asp:RequiredFieldValidator ID="reqbookwriter" runat="server" ErrorMessage="Enter Author." ControlToValidate="txtbookwriter" ForeColor="#FF6600"></asp:RequiredFieldValidator> </div>
                                 </div>
@@ -60,4 +60,10 @@
                         </div>
                     </div>
                 </div>
+    <link href="Scripts/WebForms/jquery-ui.css" rel="stylesheet" />
+ <script type="text/javascript">
+        $(function () {
+            $("[id$=txtreleasedate]").datepicker({});
+        });
+    </script>
 </asp:Content>
