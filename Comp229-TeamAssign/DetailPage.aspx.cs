@@ -55,21 +55,19 @@ namespace Comp229_TeamAssign
                 if (userId > 0)
                 {
                     Session["UserId="] = userId;
-                    Response.Redirect("TrackingPage.aspx");
+                    Response.Redirect("AddItem.aspx");
                 }
                 else
                 {
                     lblerror.Text = "Incorrect Username or password !";
                 }
-                //string message = "alert('User registered Successfully. ')";
-                //ScriptManager.RegisterClientScriptBlock((sender as Control), this.GetType(), "alert", message, true);
+               
                 con.Close();
             }
             catch (System.Exception ex)
             {
                 lblerror.Text = ex.Message;
-                //string message = "alert('Registration Failed. try again')";
-                //ScriptManager.RegisterClientScriptBlock((sender as Control), this.GetType(), "alert", message, true);
+                
             }
         }
     }

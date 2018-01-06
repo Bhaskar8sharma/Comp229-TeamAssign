@@ -1,19 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DetailPage.aspx.cs" Inherits="Comp229_TeamAssign.WebForm2" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <%--  <%--<div class="parallax" style="height: 200px ; width: 400px"  >
-
-       <link href="StyleSheet1.css" rel="stylesheet" type="text/css">
-    </div>--%>
-    <%--<div style="background-image: url('http://localhost:59129/Assets/logo.jpg'); background-position: 0px 0px; background-repeat: no-repeat; background-attachment: scroll; height: 494px;">
-        
-    </div>
-    <div>
-        <h2>MOST POPULAR</h2>
-        <p>
-
-        </p>
-    </div>--%>
+   
     <div style="width: 1200px; margin: auto">
         <div class="row">
             <div class="col-md-8">
