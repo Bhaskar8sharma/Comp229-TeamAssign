@@ -11,5 +11,23 @@ namespace Comp229_TeamAssign {
     
     
     public partial class TrackingPage {
+        
+        /// <summary>
+        /// Rprecentitems control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater Rprecentitems;
+        
+        /// <summary>
+        /// Rptowned control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater Rptowned;
     }
 }

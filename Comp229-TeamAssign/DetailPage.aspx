@@ -1,16 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DetailPage.aspx.cs" Inherits="Comp229_TeamAssign.WebForm2" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-   
+    
     <div style="width: 1200px; margin: auto">
         <div class="row">
             <div class="col-md-8">
-                <div class="panel panel-primary" id="panelLatestMovies">
+                <div class="panel panel-primary" id="panelLatestBooks">
                     <div class="panel-heading">
                         <h3 class="panel-title">Available Books</h3>
                     </div>
                     <div class="panel-body">
-                        <div class="col-xs-12 col-sm-5 movie">
+                        <div class="col-xs-12 col-sm-5 books">
                             <asp:Repeater ID="Rptitems" runat="server">
                                 <ItemTemplate>
                                     <div class="panel panel-default">

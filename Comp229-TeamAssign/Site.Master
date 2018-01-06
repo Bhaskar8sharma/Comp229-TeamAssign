@@ -4,6 +4,8 @@
 
 <html lang="en">
 <head runat="server">
+     <link rel="StyleSheet" href="~/Content/StyleSheet1.css" type="text/css" />
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - HB Library</title>
@@ -11,13 +13,10 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
 </head>
 <body>
-    <asp:HyperLink rel="stylesheet" type="text/css" runat="server" href="StyleSheet1.css"></asp:HyperLink>
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -48,20 +47,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/HBLibrary">HB Library</a>
+                    <a class="navbar-brand" runat="server" href="~/HBLibrary">About Us</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/TrackingPage">Tracking Page</a></li>
-                        <li><a runat="server" href="~/DetailPage">Detail Page</a></li>
-                        <li><a runat="server" href="~/HBLibrary">HBLibrary</a></li>
-                        <li><a runat="server" href="~/TrackingPage">Tracking Page</a></li>
+                       
+                        <li><a runat="server" href="~/"></a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
